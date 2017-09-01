@@ -1,0 +1,22 @@
+{
+  "name": "dn-template-tauri-mobx",
+  "version": "0.0.2",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "dn $ clean && dn test && dn build -e prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "camel-case": "^3.0.0",
+    "faked": "^1.0.10",
+    "invariant": "^2.2.2",
+    "mobx": "^3.2.2",
+    "mobx-react": "^4.2.2",
+    "query-string": "^5.0.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router": "^4.2.0"
+  }
+}
