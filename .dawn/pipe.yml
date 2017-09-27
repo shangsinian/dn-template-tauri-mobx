@@ -1,0 +1,22 @@
+init:
+  - name: pkginfo
+
+dev:
+  - name: clean
+  - name: webpack2
+    entry: ./src/script/container/*.js
+    watch: true
+  - name: server
+
+build:
+  - name: clean
+  - name: webpack2
+    entry: ./src/script/container/*.js
+
+test:
+  - name: lint
+
+publish:
+  - name: shell
+    script:
+      - dn test
